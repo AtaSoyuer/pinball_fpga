@@ -1,0 +1,122 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
+
+// DATE "05/15/2019 13:37:22"
+
+// 
+// Device: Altera 5CSEMA6F31C6 Package FBGA896
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module clk_en (
+	CLK,
+	clkenable);
+input 	CLK;
+output 	clkenable;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \clkenable~output_o ;
+wire \CLK~input_o ;
+wire \tempclk~0_combout ;
+wire \tempclk~q ;
+
+
+cyclonev_io_obuf \clkenable~output (
+	.i(\tempclk~q ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\clkenable~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \clkenable~output .bus_hold = "false";
+defparam \clkenable~output .open_drain_output = "false";
+defparam \clkenable~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \tempclk~0 (
+// Equation(s):
+// \tempclk~0_combout  = !\tempclk~q 
+
+	.dataa(!\tempclk~q ),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\tempclk~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \tempclk~0 .extended_lut = "off";
+defparam \tempclk~0 .lut_mask = 64'hAAAAAAAAAAAAAAAA;
+defparam \tempclk~0 .shared_arith = "off";
+// synopsys translate_on
+
+dffeas tempclk(
+	.clk(\CLK~input_o ),
+	.d(\tempclk~0_combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\tempclk~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam tempclk.is_wysiwyg = "true";
+defparam tempclk.power_up = "low";
+// synopsys translate_on
+
+assign clkenable = \clkenable~output_o ;
+
+endmodule

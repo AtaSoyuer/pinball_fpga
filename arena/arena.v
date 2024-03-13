@@ -1,0 +1,53 @@
+module arena ( input wire CLK,             // board clock: 100 MHz on Arty/Basys3/Nexys
+    input wire RST_BTN,         // reset button
+    output wire VGA_HS_O,       // horizontal sync output
+    output wire VGA_VS_O,       // vertical sync output
+    output wire [7:0] VGA_R,    // 4-bit VGA red output
+    output wire [7:0] VGA_G,    // 4-bit VGA green output
+	 output vgaclk,
+	 output reg borderleft, borderright, bordertop, borderleftincline, borderrightincline,
+    output wire [7:0] VGA_B );    // 4-bit VGA blue output)
+	 
+	 wire rst = ~RST_BTN;    // reset is active low on Arty & Nexys Video
+    // wire rst = RST_BTN;  // reset is active high on Basys3 (BTNC)
+	 
+	 
+	 wire [9:0] x;  // current pixel x position: 10-bit value: 0-1023
+    wire [8:0] y;  // current pixel y position:  9-bit value: 0-511
+	 
+	 // generate a 25 MHz enable
+    reg tempclk;
+wire clkenable;
+initial
+begin
+	tempclk=1'b0;
+end
+
+   always @ (posedge CLK)
+begin
+	tempclk <= ~tempclk;
+end
+
+assign clkenable = tempclk;
+
+    vga640x480 display (
+        .i_clk(CLK),
+        .i_clkenable(clkenable),
+        .i_rst(rst),
+        .o_hs(VGA_HS_O), 
+        .o_vs(VGA_VS_O), 
+        .o_x(x), 
+        .o_y(y)
+		  );
+		  
+		  
+
+   
+
+
+
+
+	 assign vgaclk = clkenable ;
+	 
+	 endmodule
+	 

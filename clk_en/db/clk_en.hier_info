@@ -1,0 +1,5 @@
+|clk_en
+CLK => tempclk.CLK
+clkenable <= tempclk.DB_MAX_OUTPUT_PORT_TYPE
+
+

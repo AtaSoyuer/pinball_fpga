@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Mormie/Desktop/COURSES/Pinball/clk_en/clk_en.v
+source_file = 1, C:/Users/Mormie/Desktop/COURSES/Pinball/clk_en/test1.vwf
+source_file = 1, C:/Users/Mormie/Desktop/COURSES/Pinball/clk_en/db/clk_en.cbx.xml
+design_name = clk_en
+instance = comp, \clkenable~output , clkenable~output, clk_en, 1
+instance = comp, \CLK~input , CLK~input, clk_en, 1
+instance = comp, \tempclk~0 , tempclk~0, clk_en, 1

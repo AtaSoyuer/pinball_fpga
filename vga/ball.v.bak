@@ -1,0 +1,31 @@
+module ball (
+input wire i_clk,         // base clock
+						input wire i_ani_stb,     // animation clock: pixel clock is 1 pix/frame
+						input wire i_rst,         // reset: returns animation to starting position
+						input wire i_animate,     // animate when input is high
+						input [9:0] x, y,
+						input [9:0] xcenter, ycenter, 
+						output ball
+);
+
+wire [31:0] r;
+wire [31:0] xfinal;
+wire [31:0] yfinal;
+
+assign r= 32'd8;
+
+
+assign xfinal=(x-xcenter)*(x-xcenter);
+assign yfinal=(y-ycenter)*(y-ycenter);
+
+
+assign circle = ((xfinal+yfinal) <= r*r);
+
+
+always @ (posedge i_clk)
+    
+	 begin
+        if (i_rst)  // on reset return to starting position
+        begin
+            angle <= 8'd0;
+         end  

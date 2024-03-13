@@ -1,0 +1,9 @@
+module flipper (input wire i_clk,         // base clock
+						input wire i_ani_stb,     // animation clock: pixel clock is 1 pix/frame
+						input wire i_rst,         // reset: returns animation to starting position
+						input wire i_animate,     // animate when input is high
+						output wire [11:0] teta,  // Angle of the flipper
+						output wire flipper_button)
+						
+						
+						

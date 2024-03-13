@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -18.835
+TNS   : -10886.378
+
+Type  : Slow 1100mV 85C Model Setup 'ball:Z|carry1[2]'
+Slack : -9.628
+TNS   : -37.929
+
+Type  : Slow 1100mV 85C Model Setup 'ball:Z|carry2[0]'
+Slack : -4.737
+TNS   : -18.125
+
+Type  : Slow 1100mV 85C Model Hold 'ball:Z|carry1[2]'
+Slack : -1.888
+TNS   : -5.896
+
+Type  : Slow 1100mV 85C Model Hold 'ball:Z|carry2[0]'
+Slack : -0.889
+TNS   : -2.931
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : -0.629
+TNS   : -5.688
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -2.225
+TNS   : -2267.810
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ball:Z|carry1[2]'
+Slack : -0.969
+TNS   : -15.322
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ball:Z|carry2[0]'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -19.395
+TNS   : -11052.221
+
+Type  : Slow 1100mV 0C Model Setup 'ball:Z|carry1[2]'
+Slack : -9.881
+TNS   : -38.837
+
+Type  : Slow 1100mV 0C Model Setup 'ball:Z|carry2[0]'
+Slack : -4.865
+TNS   : -18.492
+
+Type  : Slow 1100mV 0C Model Hold 'ball:Z|carry1[2]'
+Slack : -1.976
+TNS   : -6.141
+
+Type  : Slow 1100mV 0C Model Hold 'ball:Z|carry2[0]'
+Slack : -0.911
+TNS   : -2.960
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : -0.810
+TNS   : -7.579
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -2.225
+TNS   : -2287.576
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ball:Z|carry1[2]'
+Slack : -1.042
+TNS   : -16.888
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ball:Z|carry2[0]'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -9.894
+TNS   : -6268.877
+
+Type  : Fast 1100mV 85C Model Setup 'ball:Z|carry1[2]'
+Slack : -4.959
+TNS   : -19.176
+
+Type  : Fast 1100mV 85C Model Setup 'ball:Z|carry2[0]'
+Slack : -2.397
+TNS   : -9.041
+
+Type  : Fast 1100mV 85C Model Hold 'ball:Z|carry1[2]'
+Slack : -1.033
+TNS   : -3.178
+
+Type  : Fast 1100mV 85C Model Hold 'ball:Z|carry2[0]'
+Slack : -0.453
+TNS   : -1.462
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : -0.266
+TNS   : -1.802
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -1.702
+TNS   : -1601.978
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ball:Z|carry1[2]'
+Slack : -0.348
+TNS   : -2.443
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ball:Z|carry2[0]'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -9.356
+TNS   : -5811.855
+
+Type  : Fast 1100mV 0C Model Setup 'ball:Z|carry1[2]'
+Slack : -4.674
+TNS   : -18.098
+
+Type  : Fast 1100mV 0C Model Setup 'ball:Z|carry2[0]'
+Slack : -2.292
+TNS   : -8.671
+
+Type  : Fast 1100mV 0C Model Hold 'ball:Z|carry1[2]'
+Slack : -0.975
+TNS   : -2.979
+
+Type  : Fast 1100mV 0C Model Hold 'ball:Z|carry2[0]'
+Slack : -0.435
+TNS   : -1.389
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : -0.398
+TNS   : -2.745
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -1.702
+TNS   : -1601.860
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ball:Z|carry1[2]'
+Slack : -0.293
+TNS   : -1.996
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ball:Z|carry2[0]'
+Slack : 0.404
+TNS   : 0.000
+
+------------------------------------------------------------

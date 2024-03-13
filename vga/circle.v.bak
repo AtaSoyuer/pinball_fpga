@@ -1,0 +1,13 @@
+module circle (input [9:0] x,xcenter,y,ycenter, output circle );
+
+
+reg [0:8] r;
+
+initial
+begin
+r=9'b000111110;
+end
+
+assign circle = ((x-xcenter)*(x-xcenter)+(y-ycenter)*(y-ycenter) <= r*r);
+
+endmodule 

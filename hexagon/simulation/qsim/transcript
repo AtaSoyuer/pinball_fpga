@@ -1,0 +1,198 @@
+# do hexagon.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hexagon
+# 
+# Top level modules:
+# 	hexagon
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hexagon_vlg_sample_tst
+# -- Compiling module hexagon_vlg_check_tst
+# -- Compiling module hexagon_vlg_vec_tst
+# 
+# Top level modules:
+# 	hexagon_vlg_vec_tst
+# vsim -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.hexagon_vlg_vec_tst 
+# Loading work.hexagon_vlg_vec_tst
+# Loading work.hexagon
+# Loading work.hexagon_vlg_sample_tst
+# Loading work.hexagon_vlg_check_tst
+# ** Warning: (vsim-3016) hexagon.vo(1009): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3016) hexagon.vo(1009): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3016) hexagon.vo(1009): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3015) hexagon.vo(1009): [PCDPC] - Port size (1 or 1) does not match connection size (26) for port 'az'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3015) hexagon.vo(1009): [PCDPC] - Port size (16 or 16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3015) hexagon.vo(1009): [PCDPC] - Port size (16 or 16) does not match connection size (19) for port 'by'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3015) hexagon.vo(1009): [PCDPC] - Port size (1 or 1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3015) hexagon.vo(1009): [PCDPC] - Port size (10 or 10) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-3015) hexagon.vo(1009): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult4~8 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3016) hexagon.vo(1186): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3016) hexagon.vo(1186): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3016) hexagon.vo(1186): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3015) hexagon.vo(1186): [PCDPC] - Port size (1 or 1) does not match connection size (26) for port 'az'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3015) hexagon.vo(1186): [PCDPC] - Port size (16 or 16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3015) hexagon.vo(1186): [PCDPC] - Port size (16 or 16) does not match connection size (19) for port 'by'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3015) hexagon.vo(1186): [PCDPC] - Port size (1 or 1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3015) hexagon.vo(1186): [PCDPC] - Port size (10 or 10) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-3015) hexagon.vo(1186): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult0~mac 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3016) hexagon.vo(1363): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3016) hexagon.vo(1363): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3016) hexagon.vo(1363): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3015) hexagon.vo(1363): [PCDPC] - Port size (1 or 1) does not match connection size (26) for port 'az'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3015) hexagon.vo(1363): [PCDPC] - Port size (16 or 16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3015) hexagon.vo(1363): [PCDPC] - Port size (16 or 16) does not match connection size (19) for port 'by'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3015) hexagon.vo(1363): [PCDPC] - Port size (1 or 1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3015) hexagon.vo(1363): [PCDPC] - Port size (10 or 10) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-3015) hexagon.vo(1363): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult2~8 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3016) hexagon.vo(2347): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3016) hexagon.vo(2347): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3016) hexagon.vo(2347): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3015) hexagon.vo(2347): [PCDPC] - Port size (1 or 1) does not match connection size (26) for port 'az'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3015) hexagon.vo(2347): [PCDPC] - Port size (16 or 16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3015) hexagon.vo(2347): [PCDPC] - Port size (16 or 16) does not match connection size (19) for port 'by'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3015) hexagon.vo(2347): [PCDPC] - Port size (1 or 1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3015) hexagon.vo(2347): [PCDPC] - Port size (10 or 10) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-3015) hexagon.vo(2347): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult1~mac 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3016) hexagon.vo(2524): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3016) hexagon.vo(2524): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3016) hexagon.vo(2524): Port type is incompatible with connection (port 'ax').
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3015) hexagon.vo(2524): [PCDPC] - Port size (1 or 1) does not match connection size (26) for port 'az'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3015) hexagon.vo(2524): [PCDPC] - Port size (16 or 16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3015) hexagon.vo(2524): [PCDPC] - Port size (16 or 16) does not match connection size (19) for port 'by'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3015) hexagon.vo(2524): [PCDPC] - Port size (1 or 1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3015) hexagon.vo(2524): [PCDPC] - Port size (10 or 10) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-3015) hexagon.vo(2524): [PCDPC] - Port size (64 or 64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(37).
+# 
+#         Region: /hexagon_vlg_vec_tst/i1/\Mult3~8 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) nofile(37): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# Simulation passed !
+# ** Note: $finish    : test2.vwf.vt(156)
+#    Time: 1 us  Iteration: 0  Instance: /hexagon_vlg_vec_tst/tb_out

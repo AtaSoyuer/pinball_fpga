@@ -1,0 +1,6 @@
+module counter (input wire i_clk,         // base clock
+						input wire i_ani_stb,     // animation clock: pixel clock is 1 pix/frame
+						input wire i_rst,         // reset: returns animation to starting position
+						input wire i_animate,     // animate when input is high
+															
+						 )

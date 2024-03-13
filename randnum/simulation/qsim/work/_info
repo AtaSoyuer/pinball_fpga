@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Mormie\Desktop\COURSES\Pinball\randnum\simulation\qsim
+vrandnum
+Z1 !s100 Y3==`Kf45cPRhF<nW7aN_2
+Z2 I3CP7WcYmFIWBllOb072jV2
+Z3 V:fV5XS]S^8aU3PjcQEzLN2
+Z4 dC:\Users\Mormie\Desktop\COURSES\Pinball\randnum\simulation\qsim
+Z5 w1557936824
+Z6 8randnum.vo
+Z7 Frandnum.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|randnum.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1557936825.228000
+Z12 !s107 randnum.vo|
+!s101 -O0
+vrandnum_vlg_check_tst
+!i10b 1
+Z13 !s100 1bP;e?^VL:OnMob37bGgU2
+Z14 ILIl2d4d^L5zJO2`NJnnB^2
+Z15 V86eefUY<Cg6mnfCO9@XbV2
+R4
+Z16 w1557936823
+Z17 8Waveform2.vwf.vt
+Z18 FWaveform2.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1557936825.346000
+Z20 !s107 Waveform2.vwf.vt|
+Z21 !s90 -work|work|Waveform2.vwf.vt|
+!s101 -O0
+R10
+vrandnum_vlg_sample_tst
+!i10b 1
+Z22 !s100 WUNSZ7=eH93f8hGY]j=z^0
+Z23 IO3G7P2z@]aELde>^EY][T3
+Z24 V4o4?;jenRYGNLWljKhXgb0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vrandnum_vlg_vec_tst
+!i10b 1
+!s100 F6IBfOQ6nQHSAfagj5PCo3
+I9AL9Q[;AoKBUQbI^YC]9Q1
+Z25 V4b>C38XVN3HYeP_Io^P^Y1
+R4
+R16
+R17
+R18
+Z26 L0 297
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
